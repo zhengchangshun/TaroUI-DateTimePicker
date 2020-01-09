@@ -1,0 +1,16 @@
+{
+  "extends": ["taro"],
+  "rules": {
+      "no-unused-vars": ["error", { "varsIgnorePattern": "Taro" }],
+      "react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx", ".tsx"] }],
+      "jsx-quotes": ["error", "prefer-double"],
+      "react/sort-comp": 0,
+      "semi": 2,
+      "comma-spacing": 2,
+      "no-restricted-globals": 0,
+      "react/jsx-indent-props": [2, 4], //验证JSX中的props缩进
+      "react/no-unused-state": 0
+
+  },
+    "parser": "babel-eslint"
+  }

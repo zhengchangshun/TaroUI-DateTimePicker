@@ -1,0 +1,11 @@
+@import "~taro-ui/dist/style/index.scss"; // 引入组件样式 - 方式二
+
+page{
+    background-color: #F4F4F5;
+    height: 100%;
+    width: 100%;
+}
+
+view, text {
+    box-sizing: border-box;
+}
